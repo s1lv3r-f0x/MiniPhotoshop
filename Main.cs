@@ -28,7 +28,7 @@ namespace MyPhotoshop
 				(point, size) => new Point(size.Width-point.X-1, point.Y)
                 ));
 			window.AddFilter(new TransformFilter(
-                "Поворот против ч. с.",
+                "Поворот против ч с",
 				size => new Size(size.Height, size.Width),
 				(point, size) => new Point(point.Y, point.X)
                 ));
